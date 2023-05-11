@@ -3,7 +3,7 @@ import java.util.concurrent.CompletableFuture;
 
 public class Main {
     public static void main(String[] args) throws Exception {
-        int n = 48;
+        int n = 49;
         System.out.println("Розрахунок " + n + " числа Фібоначчі");
         CompletableFuture<Integer> f = CompletableFuture.supplyAsync(() -> fibonacci(n));
         System.out.println("Очікування результату...");
